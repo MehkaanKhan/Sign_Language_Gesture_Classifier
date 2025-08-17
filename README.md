@@ -18,7 +18,7 @@ Key features:
 * Python 3.x
 * [FastAI](https://www.fast.ai/)
 * [PyTorch](https://pytorch.org/)
-* Gradio (optional, for interactive demo)
+* Gradio [optional, for interactive demo(https://6e75a86b7724adb30c.gradio.live/)]
 * Jupyter Notebook / Google Colab
 
 
@@ -66,13 +66,13 @@ pip install -r requirements.txt
 from fastai.vision.all import load_learner, PILImage
 
 # Load model
-learn = load_learner('export.pkl')
+learn = load_learner('export2.pkl')
 
 # Predict gesture
 img = PILImage.create('sample_image.jpg')
 pred, pred_idx, probs = learn.predict(img)
 
-print(f"Predicted gesture: {pred}")
+print(f"Predicted gesture: {pred}; Probability: {probs[pred_idx]:.04f}")
 ```
 
 # contributing
