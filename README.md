@@ -18,7 +18,7 @@ Key features:
 * Python 3.x
 * [FastAI](https://www.fast.ai/)
 * [PyTorch](https://pytorch.org/)
-* Gradio [optional, for interactive demo(https://6e75a86b7724adb30c.gradio.live/)]
+* Gradio [optional, for interactive demo(https://8e784fcf3c0e85d22a.gradio.live/)]
 * Jupyter Notebook / Google Colab
 
 
